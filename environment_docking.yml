@@ -1,0 +1,15 @@
+name: docking_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - openbabel
+  - autodock-vina
+  - fpocket
+  - pymol-open-source
+  - plip
+  - pip
+  - pip:
+      - fpdf2
